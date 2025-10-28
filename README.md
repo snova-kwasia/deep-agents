@@ -50,8 +50,8 @@ Add your API keys to the `.env` file:
 # Required for research agents with external search
 TAVILY_API_KEY=your_tavily_api_key_here
 
-# Required for model usage
-ANTHROPIC_API_KEY=your_anthropic_api_key_here
+# Required for LLM
+SAMBANOVA_API_KEY=your_sambanova_api_key_here 
 
 # Optional: For evaluation and tracing
 LANGSMITH_API_KEY=your_langsmith_api_key_here
