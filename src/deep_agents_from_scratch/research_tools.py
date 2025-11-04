@@ -24,7 +24,7 @@ from deep_agents_from_scratch.state import DeepAgentState
 
 # Summarization model 
 #summarization_model = init_chat_model(model="openai:gpt-4o-mini")
-summarization_model = ChatSambaNova(model="DeepSeek-V3.1-Terminus", temperature=0.0, extra_body={"chat_template_kwargs": {"enable_thinking": False}})
+summarization_model = ChatSambaNova(model="Llama-4-Maverick-17B-128E-Instruct", temperature=0.0)
 tavily_client = TavilyClient()
 
 class Summary(BaseModel):
